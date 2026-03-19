@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculator{
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+button{
+padding: 10px;
+font-size: 16px;
+background-color: #e19292;
+border: 2px solid #000000;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover{
+    background: #6de393;
+}
+#display{
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    width: 95%;
+}
+.clear-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black; 
+}
+.clear-btn:hover{
+    background: lightseagreen;
+}
+.divi-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.divi-btn:hover{
+    background: lightseagreen;
+}
+.multi-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px soild black;
+}
+.multi-btn:hover{
+    background: lightseagreen;
+}
+.sub-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.sub-btn:hover{
+    background: lightseagreen;
+}
+.add-btn{
+    background-color: lightsalmon;
+    color:black;
+    border: 2px solid black;
+}
+.add-btn:hover{
+    background: lightseagreen;
+}
+.end-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.end-btn:hover{
+    background: lightseagreen;
+}
+.dot-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
